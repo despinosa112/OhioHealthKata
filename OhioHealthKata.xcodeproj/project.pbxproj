@@ -11,9 +11,23 @@
 		E800A97F27EF910100EEE41B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A97E27EF910100EEE41B /* ContentView.swift */; };
 		E800A98127EF910300EEE41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E800A98027EF910300EEE41B /* Assets.xcassets */; };
 		E800A98427EF910300EEE41B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E800A98327EF910300EEE41B /* Preview Assets.xcassets */; };
-		E800A98E27EF910300EEE41B /* OhioHealthKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A98D27EF910300EEE41B /* OhioHealthKataTests.swift */; };
-		E800A99827EF910300EEE41B /* OhioHealthKataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A99727EF910300EEE41B /* OhioHealthKataUITests.swift */; };
-		E800A99A27EF910300EEE41B /* OhioHealthKataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A99927EF910300EEE41B /* OhioHealthKataUITestsLaunchTests.swift */; };
+		E800A9A727EF947000EEE41B /* FirstPageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A9A627EF947000EEE41B /* FirstPageList.swift */; };
+		E800A9A927EF94B800EEE41B /* FirstPageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A9A827EF94B800EEE41B /* FirstPageRow.swift */; };
+		E800A9F827F0256F00EEE41B /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A9F727F0256F00EEE41B /* SpeechRecognizer.swift */; };
+		E80BDE0027F1299000924C9F /* RecordingDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80BDDFF27F1299000924C9F /* RecordingDisplay.swift */; };
+		E80BDE0827F13F0100924C9F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80BDE0727F13F0100924C9F /* ModelData.swift */; };
+		E80BDE0B27F149EC00924C9F /* SecondPageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80BDE0A27F149EC00924C9F /* SecondPageList.swift */; };
+		E80BDE0D27F14DBB00924C9F /* SecondPageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80BDE0C27F14DBB00924C9F /* SecondPageRow.swift */; };
+		E80BDE0F27F169B900924C9F /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80BDE0E27F169B900924C9F /* FirstPage.swift */; };
+		E80BDE1127F16B5400924C9F /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80BDE1027F16B5400924C9F /* SecondPage.swift */; };
+		E87D544C27F4224300430FA6 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87D544B27F4224300430FA6 /* NextButton.swift */; };
+		E87D544E27F423B400430FA6 /* RetrieveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87D544D27F423B400430FA6 /* RetrieveButton.swift */; };
+		E8C4F88127F321BE00044E5E /* CoreItems.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8C4F87F27F321BE00044E5E /* CoreItems.xcdatamodeld */; };
+		E8C4F88327F3223400044E5E /* CoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4F88227F3223400044E5E /* CoreController.swift */; };
+		E8C4F88527F3CCF200044E5E /* ContentItems.json in Resources */ = {isa = PBXBuildFile; fileRef = E8C4F88427F3CCF200044E5E /* ContentItems.json */; };
+		E8C4F88827F3CD1200044E5E /* ContentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4F88727F3CD1200044E5E /* ContentItem.swift */; };
+		E8C4F88A27F3CF9000044E5E /* LocalFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4F88927F3CF9000044E5E /* LocalFetcher.swift */; };
+		E8C4F88E27F4074200044E5E /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4F88D27F4074200044E5E /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +54,24 @@
 		E800A98027EF910300EEE41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E800A98327EF910300EEE41B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E800A98927EF910300EEE41B /* OhioHealthKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhioHealthKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E800A98D27EF910300EEE41B /* OhioHealthKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhioHealthKataTests.swift; sourceTree = "<group>"; };
 		E800A99327EF910300EEE41B /* OhioHealthKataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhioHealthKataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E800A99727EF910300EEE41B /* OhioHealthKataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhioHealthKataUITests.swift; sourceTree = "<group>"; };
-		E800A99927EF910300EEE41B /* OhioHealthKataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhioHealthKataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E800A9A627EF947000EEE41B /* FirstPageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageList.swift; sourceTree = "<group>"; };
+		E800A9A827EF94B800EEE41B /* FirstPageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageRow.swift; sourceTree = "<group>"; };
+		E800A9F727F0256F00EEE41B /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		E80BDDFF27F1299000924C9F /* RecordingDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDisplay.swift; sourceTree = "<group>"; };
+		E80BDE0727F13F0100924C9F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		E80BDE0A27F149EC00924C9F /* SecondPageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageList.swift; sourceTree = "<group>"; };
+		E80BDE0C27F14DBB00924C9F /* SecondPageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageRow.swift; sourceTree = "<group>"; };
+		E80BDE0E27F169B900924C9F /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		E80BDE1027F16B5400924C9F /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		E87D544B27F4224300430FA6 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		E87D544D27F423B400430FA6 /* RetrieveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveButton.swift; sourceTree = "<group>"; };
+		E8C4F88027F321BE00044E5E /* CoreItems.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreItems.xcdatamodel; sourceTree = "<group>"; };
+		E8C4F88227F3223400044E5E /* CoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreController.swift; sourceTree = "<group>"; };
+		E8C4F88427F3CCF200044E5E /* ContentItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ContentItems.json; sourceTree = "<group>"; };
+		E8C4F88727F3CD1200044E5E /* ContentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentItem.swift; sourceTree = "<group>"; };
+		E8C4F88927F3CF9000044E5E /* LocalFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFetcher.swift; sourceTree = "<group>"; };
+		E8C4F88D27F4074200044E5E /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				E800A97B27EF910100EEE41B /* OhioHealthKata */,
-				E800A98C27EF910300EEE41B /* OhioHealthKataTests */,
-				E800A99627EF910300EEE41B /* OhioHealthKataUITests */,
 				E800A97A27EF910100EEE41B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +121,12 @@
 			isa = PBXGroup;
 			children = (
 				E800A97C27EF910100EEE41B /* OhioHealthKataApp.swift */,
-				E800A97E27EF910100EEE41B /* ContentView.swift */,
+				E8C4F88227F3223400044E5E /* CoreController.swift */,
+				E8C4F88927F3CF9000044E5E /* LocalFetcher.swift */,
+				E8C4F88D27F4074200044E5E /* Converter.swift */,
+				E8C4F88627F3CCFB00044E5E /* Resources */,
+				E800A9F927F025DC00EEE41B /* Views */,
+				E800A9F627F0255E00EEE41B /* Models */,
 				E800A98027EF910300EEE41B /* Assets.xcassets */,
 				E800A98227EF910300EEE41B /* Preview Content */,
 			);
@@ -110,21 +141,56 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E800A98C27EF910300EEE41B /* OhioHealthKataTests */ = {
+		E800A9AA27EF9EBF00EEE41B /* FirstPage */ = {
 			isa = PBXGroup;
 			children = (
-				E800A98D27EF910300EEE41B /* OhioHealthKataTests.swift */,
+				E80BDE0E27F169B900924C9F /* FirstPage.swift */,
+				E800A9A627EF947000EEE41B /* FirstPageList.swift */,
+				E800A9A827EF94B800EEE41B /* FirstPageRow.swift */,
+				E87D544B27F4224300430FA6 /* NextButton.swift */,
+				E80BDDFF27F1299000924C9F /* RecordingDisplay.swift */,
 			);
-			path = OhioHealthKataTests;
+			path = FirstPage;
 			sourceTree = "<group>";
 		};
-		E800A99627EF910300EEE41B /* OhioHealthKataUITests */ = {
+		E800A9F627F0255E00EEE41B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E800A99727EF910300EEE41B /* OhioHealthKataUITests.swift */,
-				E800A99927EF910300EEE41B /* OhioHealthKataUITestsLaunchTests.swift */,
+				E800A9F727F0256F00EEE41B /* SpeechRecognizer.swift */,
+				E80BDE0727F13F0100924C9F /* ModelData.swift */,
+				E8C4F88727F3CD1200044E5E /* ContentItem.swift */,
+				E8C4F87F27F321BE00044E5E /* CoreItems.xcdatamodeld */,
 			);
-			path = OhioHealthKataUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E800A9F927F025DC00EEE41B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E800A97E27EF910100EEE41B /* ContentView.swift */,
+				E80BDE0927F149D400924C9F /* SecondPage */,
+				E800A9AA27EF9EBF00EEE41B /* FirstPage */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E80BDE0927F149D400924C9F /* SecondPage */ = {
+			isa = PBXGroup;
+			children = (
+				E80BDE1027F16B5400924C9F /* SecondPage.swift */,
+				E80BDE0A27F149EC00924C9F /* SecondPageList.swift */,
+				E80BDE0C27F14DBB00924C9F /* SecondPageRow.swift */,
+				E87D544D27F423B400430FA6 /* RetrieveButton.swift */,
+			);
+			path = SecondPage;
+			sourceTree = "<group>";
+		};
+		E8C4F88627F3CCFB00044E5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8C4F88427F3CCF200044E5E /* ContentItems.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C4F88527F3CCF200044E5E /* ContentItems.json in Resources */,
 				E800A98427EF910300EEE41B /* Preview Assets.xcassets in Resources */,
 				E800A98127EF910300EEE41B /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +325,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E800A97F27EF910100EEE41B /* ContentView.swift in Sources */,
+				E8C4F88127F321BE00044E5E /* CoreItems.xcdatamodeld in Sources */,
+				E8C4F88E27F4074200044E5E /* Converter.swift in Sources */,
+				E87D544E27F423B400430FA6 /* RetrieveButton.swift in Sources */,
+				E800A9A927EF94B800EEE41B /* FirstPageRow.swift in Sources */,
+				E80BDE0027F1299000924C9F /* RecordingDisplay.swift in Sources */,
+				E87D544C27F4224300430FA6 /* NextButton.swift in Sources */,
+				E800A9A727EF947000EEE41B /* FirstPageList.swift in Sources */,
+				E80BDE0D27F14DBB00924C9F /* SecondPageRow.swift in Sources */,
+				E80BDE0F27F169B900924C9F /* FirstPage.swift in Sources */,
+				E8C4F88327F3223400044E5E /* CoreController.swift in Sources */,
+				E80BDE0827F13F0100924C9F /* ModelData.swift in Sources */,
+				E8C4F88A27F3CF9000044E5E /* LocalFetcher.swift in Sources */,
+				E80BDE1127F16B5400924C9F /* SecondPage.swift in Sources */,
+				E80BDE0B27F149EC00924C9F /* SecondPageList.swift in Sources */,
 				E800A97D27EF910100EEE41B /* OhioHealthKataApp.swift in Sources */,
+				E8C4F88827F3CD1200044E5E /* ContentItem.swift in Sources */,
+				E800A9F827F0256F00EEE41B /* SpeechRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E800A98E27EF910300EEE41B /* OhioHealthKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +356,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E800A99A27EF910300EEE41B /* OhioHealthKataUITestsLaunchTests.swift in Sources */,
-				E800A99827EF910300EEE41B /* OhioHealthKataUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,15 +499,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OhioHealthKata/Preview Content\"";
-				DEVELOPMENT_TEAM = AEBND82R4N;
+				DEVELOPMENT_TEAM = 56Z384XZD9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow access to the microphone";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Please allow access to the speech recognizer";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,15 +531,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OhioHealthKata/Preview Content\"";
-				DEVELOPMENT_TEAM = AEBND82R4N;
+				DEVELOPMENT_TEAM = 56Z384XZD9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow access to the microphone";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Please allow access to the speech recognizer";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +564,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AEBND82R4N;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -505,7 +589,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AEBND82R4N;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +691,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8C4F87F27F321BE00044E5E /* CoreItems.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8C4F88027F321BE00044E5E /* CoreItems.xcdatamodel */,
+			);
+			currentVersion = E8C4F88027F321BE00044E5E /* CoreItems.xcdatamodel */;
+			path = CoreItems.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E800A97127EF910100EEE41B /* Project object */;
 }
